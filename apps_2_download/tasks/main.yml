@@ -1,0 +1,11 @@
+---
+# tasks file for apps_2_download
+
+- name: Install net-tools, tree, and htop
+  apt:
+    name:
+      - net-tools
+      - tree
+      - htop
+    state: present
+  become: true

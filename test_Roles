@@ -1,0 +1,10 @@
+---
+   - name: Test roles
+     hosts: all
+    
+     vars:
+       ansible_verbosity: 1  # Set the verbosity level (0 to 4)
+     roles:
+       - Ping_role
+       - apps_2_download
+       - apachi_download

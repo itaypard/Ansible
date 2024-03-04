@@ -1,0 +1,5 @@
+---
+# tasks file for Ping_role
+
+- name: Ping hosts
+  ping:
